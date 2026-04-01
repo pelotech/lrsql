@@ -53,7 +53,9 @@
   xyz.capybara/clamav-client                    {:mvn/version "2.1.2"}
   ;; Yet Analytics deps
   com.yetanalytics/lrs
-  {:mvn/version "1.4.2"
+  {:git/url    "https://github.com/pelotech/lrs.git"
+   :git/tag    "fix/atomic-etag-validation"
+   :git/sha    "2beb11021a6e4b7b2e0229692a64b2142261c79e"
    :exclusions  [org.clojure/clojure
                  org.clojure/clojurescript
                  com.yetanalytics/xapi-schema]}
